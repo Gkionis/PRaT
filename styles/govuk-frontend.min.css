@@ -5177,8 +5177,8 @@
   padding: 7px 10px;
   border: 2px solid transparent;
   border-radius: 0;
-  color: #fff;
-  background-color: darkOrange;
+  color: #000;
+  background-color: #dee0e2;
   box-shadow: 0 2px 0 #003618;
   text-align: center;
   vertical-align: top;
@@ -5223,8 +5223,8 @@
 .govuk-button--nikos:hover,
 .govuk-button--nikos:link,
 .govuk-button--nikos:visited {
-  color: #fff;
-  background-color: darkOrange;
+  color: #000;
+  background-color: #dee0e2;
   text-decoration: none;
 }
 
@@ -5235,7 +5235,7 @@
 
 .govuk-button--nikos:focus,
 .govuk-button--nikos:hover {
-  background-color: #cc7a00;
+  background-color: #b4b4b4;
 }
 
 .govuk-button--nikos:active {
@@ -5251,7 +5251,7 @@
   right: -2px;
   bottom: -4px;
   left: -2px;
-  background-color: #f44336;
+  background-color: #b4b4b4;
   background: transparent
 }
 
@@ -5337,7 +5337,7 @@ padding: 4px 8px;
 padding-bottom: 1px;
 outline: 2px solid transparent;
 outline-offset: -2px;
-color: #fff;
+color: rgb(0, 0, 0);
 background-color: #f47738;
 letter-spacing: 1px;
 text-decoration: none;

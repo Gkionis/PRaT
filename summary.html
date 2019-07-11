@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Project reporting tool</title>
+  <title>Project management tool</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b0c0c" />
 
@@ -57,95 +57,113 @@
       </a>
     </div>
 
-    <a href="login.html" class="govuk-header__link govuk-header__link--service-name">
-      Project reporting tool
-    </a>
+    <div class="govuk-header__content">
+      <a href="login.html" class="govuk-header__link govuk-header__link--service-name">Project Management Tool</a>
 
-  </nav>
-</div>
-</div>
+      <button role="button" class="govuk-header__menu-button js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
+      <nav>
+          <ul id="navigation" class="govuk-header__navigation " aria-label="Top Level Navigation">
+              <li class="govuk-header__navigation-item govuk-header__navigation-item--active">
+                  <a class="govuk-header__link" href="home.html">Create report</a>
+              </li>
+              <li class="govuk-header__navigation-item">
+                  <a class="govuk-header__link" href="reports.html">View reports</a>
+              </li>
+              <li class="govuk-header__navigation-item">
+                  <a class="govuk-header__link" href="login.html">Sign out</a>
+              </li>
+          </ul>
+      </nav>
+    </div>
+  </div>
 </header>
 
-
 <!-- Main content -->
-<body>
+    <main class="govuk-main-wrapper app-main-class" id="main-content" role="main">
+      
+      <!-- Heading -->
+      <div class="govuk-width-container">
+          <h1 class="govuk-heading-xl">Submission Summary</h1>
+          <h1 class="govuk-heading-l">Data Service Portfolio</h1>
+          <h2 class="govuk-heading-m">Post 16 review</h2>
+      </div>
+      <div class="govuk-width-container">
+          <table class="govuk-table">
+              <tbody class="govuk-table__body">
+                  <tr class="govuk-table__row">
+                      <td class="govuk-table__cell" scope="row">Phase end forecast </td>
+                      <th class="govuk-table__header" scope="col">22/04/19 </th>
+                      <td class="govuk-table__cell" scope="col"><a href="details2.html" class="govuk-link">Change</a></td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                      <td class="govuk-table__cell" scope="row">Go-Live forecast </td>
+                      <th class="govuk-table__header" scope="col">22/04/19 </th>
+                      <td class="govuk-table__cell" scope="col"><a href="details2.html" class="govuk-link">Change</a></td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                      <td class="govuk-table__cell" scope="row">Project delivery confidence </td>
+                      <th class="govuk-table__header" scope="col">6 </th>
+                      <td class="govuk-table__cell" scope="col"><a href="details2.html" class="govuk-link">Change</a></td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                      <td class="govuk-table__cell" scope="row">Rating reason(s) </td>
+                      <th class="govuk-table__header" scope="col">Business readiness </th>
+                      <td class="govuk-table__cell" scope="col"><a href="details2.html" class="govuk-link">Change</a></td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                      <td class="govuk-table__cell" scope="row">Acknowledment </td>
+                      <th class="govuk-table__header" scope="col">SRO is, Informed, but not responded yet </th>
+                      <td class="govuk-table__cell" scope="col"><a href="details2.html" class="govuk-link">Change</a></td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                      <td class="govuk-table__cell" scope="row">Resource(s) </td>
+                      <th class="govuk-table__header" scope="col">Nikolaos Gkionis, Shadow permanent</th>
+                      <td class="govuk-table__cell" scope="col"><a href="financial.html#section1" class="govuk-link">Change</a></td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                      <td class="govuk-table__cell" scope="row"></td>
+                      <th class="govuk-table__header" scope="col">Darth Vader, Contigent</th>
+                      <td class="govuk-table__cell" scope="col"><a href="financial2.html#section1" class="govuk-link">Change</a></td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                      <td class="govuk-table__cell" scope="row"></td>
+                      <th class="govuk-table__header" scope="col">Bruce Lee, Shadow contigent</th>
+                      <td class="govuk-table__cell" scope="col"><a href="financial3.html#section1" class="govuk-link">Change</a></td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                      <td class="govuk-table__cell" scope="row">Supplier(s) </td>
+                      <th class="govuk-table__header" scope="col">Autodesk LTD</th>
+                      <td class="govuk-table__cell" scope="col"><a href="suppliers.html#section1" class="govuk-link">Change</a></td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                      <td class="govuk-table__cell" scope="row"></td>
+                      <th class="govuk-table__header" scope="col">Eduserv</th>
+                      <td class="govuk-table__cell" scope="col"><a href="suppliers2.html#section1" class="govuk-link">Change</a></td>
+                  </tr>
+                  <tr class="govuk-table__row">
+                      <td class="govuk-table__cell" scope="row"></td>
+                      <th class="govuk-table__header" scope="col">Hacker House LTD</th>
+                      <td class="govuk-table__cell" scope="col"><a href="supliers3.html#section1" class="govuk-link">Change</a></td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
 
- 
-  <div class="govuk-width-container">
-      <main class="govuk-main-wrapper app-main-class" id="main-content" role="main">
-          <div class="govuk-grid-row">
-
-              <!-- Heading -->
-
-
-              <div class="govuk-grid-column-full">
-                  <h1 class="govuk-heading-xl">Project reporting tool</h1>
-              </div>
-          </div>
-          <style>
-              .govuk-input {
-                  max-width: 400px;
-                  }
-
-          </style>
-
-
+      <div class="govuk-width-container">
           <div class="govuk-grid-row">
               <div class="govuk-grid-column-one-half">
-                  <h2 class="govuk-heading-l">Sign in</h2>
-                  <div class="govuk-form-group">
-                      <label class="govuk-label" for="email">
-                          Email address
-                      </label>
-                      <span id="email-hint" class="govuk-hint">
-                          Sign in using your DfE email address
-                      </span>
-                      <input class="govuk-input" id="email" name="email" type="email" aria-describedby="email-hint">
-                  </div>
-                  <div class="govuk-form-group">
-                      <label class="govuk-label" for="password">
-                          Password
-                      </label>
-                      <span id="email-hint" class="govuk-hint">
-                          Sign in using your previously created password
-                      </span>
-                      <input class="govuk-input" id="password" name="password" type="password" aria-describedby="email-hint">
-                  </div>
-                  <a href="password-reset.html" class="govuk-link">Forgotten your password?</a>
-
-              </div>
-
-              <div class="govuk-grid-column-one-half">
-                  <h2 class="govuk-heading-l">Not registered yet?</h2>
-                  <p class="govuk-body">If this is the first time you are using the Project reporting Tool, you will need to<a href="register.html" class="govuk-link"> be registered.</a></p>
-                  <br>
-                  <p class="govuk-body">Once registered, you will be able to:</p>
-                  <ul class="govuk-list govuk-list--bullet">
-                      <li>file a report for your projects</li>
-                      <li>view reports in your portfolio</li>
-                      <li>create and edit projects</li>
-                      <li>manage your portfolio</li>
-                  </ul>
-                  <p class="govuk-body">Depending on your current role.</p>
-                  <div class="govuk-inset-text">
-                      You will only need to register once
-                  </div>
-
-
+                  <a href="completed.html" role="button" class="govuk-button">
+                      Save and Submit
+                  </a>
               </div>
           </div>
+      </div>
 
-      </main>
 
-
-  <!-- Green Button -->
-
-  <a href="home.html" role="button" draggable="false" class="govuk-button govuk-button--start">
-      Continue
-  </a>
+      <div class="govuk-width-container">
+          <a href="suppliers4.html" class="govuk-back-link">Back</a>
+  </body>
 </div>
-
-</body>
 <!-- Page footer -->
 <footer class="govuk-footer " role="contentinfo">
   <div class="govuk-width-container ">
@@ -185,7 +203,7 @@
 </footer>
 
 <!-- Scripts -->
-<script src="scripts/govuk-frontend-2.1.0.min.js"></script>
+<script src="scripts/govuk-frontend.min.js"></script>
 <script>
 window.GOVUKFrontend.initAll()
 </script>

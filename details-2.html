@@ -63,8 +63,7 @@
 
             <div class="govuk-header__content">
                 <a href="register.html" class="govuk-header__link govuk-header__link--service-name">
-                    Project Reporting
-                    Tool
+                    Project reporting tool
                 </a>
 
                 <button role="button"
@@ -76,7 +75,7 @@
                 <nav>
                     <ul id="navigation" class="govuk-header__navigation " aria-label="Top Level Navigation">
                         <li class="govuk-header__navigation-item govuk-header__navigation-item--active">
-                            <a class="govuk-header__link" href="home.html">Create / Edit report</a>
+                            <a class="govuk-header__link" href="home.html">Create report</a>
                         </li>
                         <li class="govuk-header__navigation-item">
                             <a class="govuk-header__link" href="reports.html">View reports</a>
@@ -90,770 +89,284 @@
         </div>
     </header>
 
-    <!-- Main content -->
-    <!-- Alpha Banner 
-    <div class="govuk-width-container">
+     <!-- Main content -->
+
+    <body>
+
         <main class="govuk-main-wrapper app-main-class" id="main-content" role="main">
-            <div class="govuk-phase-banner">
-                <p class="govuk-phase-banner__content">
-                    <strong class="govuk-tag govuk-phase-banner__content__tag ">
-                        beta
-                    </strong>
-                    <span class="govuk-phase-banner__text">
-                        This is a new service – your
-                        <a class="govuk-link" href="#">feedback</a> will help us to improve it.
-                    </span>
-                </p>
-            </div>
-    </div>
-    -->
 
-    <div class="govuk-width-container">
-        <main class="govuk-main-wrapper app-main-class" id="main-content" role="main">
-            <h1 class="govuk-heading-xl">Portfolio Name</h1>
+        <!-- Heading -->
+        <div class="govuk-width-container">
+            <h1 class="govuk-heading-xl">Data Service Portfolio</h1>
+        </div>
 
-            <!-- Project details -->
-            <div class="govuk-width-container">
-                <fieldset class="govuk-fieldset">
-                    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
-                        <h1 class="govuk-heading-l">
-                            Project 'Name', details
-                        </h1>
-                    </legend>
-                </fieldset>
-            </div>
-
-            <!--Fixed data-->
-            <div class="govuk-width-container">
-                <div class="govuk-grid-row">
-                    <div class="govuk-grid-column-one-third">
-                        <h3 class="govuk-heading-m">Previous RAG</h3>
-                        <strong class="govuk-tag-red">
-                            red
-                        </strong>
-                    </div>
-                    <div class="govuk-grid-column-one-third">
-                        <h3 class="govuk-heading-m">SRO</h3>
-                        <strong class="govuk-body">Nathan Swift</strong>
-                    </div>
-                    <div class="govuk-grid-column-one-third">
-                        <h3 class="govuk-heading-m">Go live date</h3>
-                        <strong class="govuk-body">10 April 2019</strong>
-                    </div>
+                <!-- Project details -->
+                <div class="govuk-width-container">
+                    <fieldset class="govuk-fieldset">
+                        <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+                            <h1 class="govuk-heading-l">
+                                Project 'Post 16 review', details
+                            </h1>
+                        </legend>
+                    </fieldset>
                 </div>
-            </div>
+                       
+                            <div class="govuk-width-container">
+                                <div class="govuk-grid-row">
+                                    <div class="govuk-grid-column-one-third">
+                                    <h3 class="govuk-heading-m">Previous RAG</h3>
+                                    <strong class="govuk-tag-red">red</strong>
+                                    </div>
+                                    <div class="govuk-grid-column-one-third">
+                                    <h3 class="govuk-heading-m">SRO</h3>
+                                    <strong class="govuk-body">Nathan Swift</strong>
+                                    </div>
+                                    <div class="govuk-grid-column-one-third">
+                                    <h3 class="govuk-heading-m">Go live date</h3>
+                                    <strong class="govuk-body">10 April 2020</strong>
+                                    </div>
+                                </div>
+                            </div>                                    
+                    
+            <!-- Step counter -->
+                <div class="govuk-width-container">
+                    <div class="govuk-grid-row">
+                            <div class="govuk-grid-column-one-third">
+                                    <div class="govuk-width-container">
+                                        <div class="govuk-inset-text">
+                                            <h1 class="govuk-heading-l">
+                                                    Step 1 of 2
+                                            </h1>
+                                        </div>
+                                    </div>
+                                </div>
+         
+                        <div class="govuk-grid-column-two-thirds">
+                            <div class="govuk-inset-text">
+                                In this 1st step you can give your project the current RAG rating, set your current phase and report on any Risks or Issues. 
+                            </div>
+                        </div>                  
+                   </div>
 
-            <!--Step by step Nav-->
-            <div id="step-by-step-navigation section1" class="app-step-nav app-step-nav--large app-step-nav--active" data-show-text="Enter" data-hide-text="Save" data-show-all-text="Show all" data-hide-all-text="Hide all">
-                <ol class="app-step-nav__steps">
+                <!--Accordion-->
+                <div class="govuk-width-container">
+                   <div class="govuk-accordion" data-module="accordion" id="accordion-default">
 
-                    <!--Step 1 Current RAG-->
-                    <li class="app-step-nav__step js-step" id="step1-current-rag-rating">
-                        <div class="app-step-nav__header js-toggle-panel" data-position="1">
-                            <h2 class="app-step-nav__title">
-                                <span class="app-step-nav__circle app-step-nav__circle--number">
-                                    <span class="app-step-nav__circle-inner">
-                                        <span class="app-step-nav__circle-background">
-                                            <span class="govuk-visually-hidden">Step</span> 1
-                                        </span>
-                                    </span>
-                                </span>
-                                <span class="js-step-title">
-                                    Current RAG rating
-                                </span>
-                            </h2>
+                    <div class="govuk-accordion__section ">
+                      <div class="govuk-accordion__section-header">
+                        <h2 class="govuk-accordion__section-heading">
+                          <span class="govuk-accordion__section-button" id="accordion-default-heading-1">
+                            Current RAG rating and Current phase
+                          </span>
+                        </h2>
+                      </div>
+                        <div id="accordion-default-content-1" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-1">
+                            <p class='govuk-body'>Here you can give your project the current RAG rating and the Current phase.</p>
+                            <div class="govuk-grid-row">
+                                <div class="govuk-grid-column-one-half">                           
+                                    <label class="govuk-heading-m" for="sort">
+                                        Current RAG rating
+                                    </label>
+                                    <select class="govuk-select" id="select-current-rag" name="s-c-r">
+                                        <option value="select" selected>Select one</option>
+                                        <option value="red">RED</option>
+                                        <option value="amb">AMBER</option>
+                                        <option value="gre">GREEN</option>
+                                    </select>
+                                </div>
+                                <div class="govuk-grid-column-one-half"> 
+                                    <label class="govuk-heading-m" for="sort">
+                                        Current phase
+                                    </label>
+                                        <select class="govuk-select" id="step-panel-5-sort" name="step-panel-5-sort">
+                                            <option value="select" selected>Discovery</option>
+                                            <option value="no">Private beta</option>
+                                            <option value="no">Public beta</option>
+                                            <option value="no">Alpha</option>
+                                            <option value="no">Live</option>
+                                            <option value="no">Other</option>
+                                        </select>
+                                </div>
                         </div>
-
-                        <div class="app-step-nav__panel js-panel js-hidden" id="step1-panel-current-rag-rating">
-                            <p class="app-step-nav__paragraph">In this 1st step you can give your project the current RAG rating.</p>
-
-                            <ol class="app-step-nav__list " data-length="1">
-                                <li class="app-step-nav__list-item js-list-item ">
-                                    <a data-position="1.1">
-                                        <select class="govuk-select" id="select-current-rag" name="s-c-r">
+                      </div>
+                    </div>
+                    <div class="govuk-accordion__section ">
+                      <div class="govuk-accordion__section-header">
+                        <h2 class="govuk-accordion__section-heading">
+                          <span class="govuk-accordion__section-button" id="accordion-default-heading-2">
+                            Risks
+                          </span>
+                        </h2>
+                      </div>
+                      <div id="accordion-default-content-2" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-2">
+                        <p class='govuk-body'>Here you can add Risk to the delivery of your project.</p>
+                        <table class="govuk-table">
+                                    <tbody class="govuk-table__body">
+                                    <tr class="govuk-table__row">
+                                            <td class="govuk-table__cell" scope="col">Fire</td>
+                                            <td class="govuk-table__cell" scope="col">Infastructure</td>
+                                            <td class="govuk-table__cell" scope="col">Red</td>
+                                            <td class="govuk-table__cell" scope="col">10-01-19</td>
+                                            <td class="govuk-table__cell" scope="col">Water</td>
+                                        </tr>
+                                        <thead class="govuk-table__head">
+                                <tr class="govuk-table__row">
+                                    <th class="govuk-table__header" scope="col">Description</th>
+                                    <th class="govuk-table__header" scope="col">Risk category</th>
+                                    <th class="govuk-table__header" scope="col">Status</th>
+                                    <th class="govuk-table__header" scope="col">Dates</th>
+                                    <th class="govuk-table__header" scope="col">Countermeasures</th>
+                                </tr>
+                            </thead>
+                            <tbody class="govuk-table__body">
+                                <tr class="govuk-table__row">
+                                    <td class="govuk-table__cell">
+                                        <input class="govuk-input" id="risks-description" name="risks-description" type="text">
+                                    </td>
+                                    <td class="govuk-table__cell">
+                                        <select class="govuk-select" id="risks-category-sort" name="category-sort">
+                                            <option value="selected" selected>Select one</option>
+                                            <option value="res">Reputational</option>
+                                            <option value="fin">Financial</option>
+                                            <option value="gov">Procurement</option>
+                                            <option value="ope">Business readiness</option>
+                                            <option value="pla">Benefits realisation</option>
+                                            <option value="str">Prioritisation</option>
+                                            <option value="sec">Governance</option>
+                                            <option value="rep">Infastructure</option>
+                                            <option value="hea">Communication</option>
+                                            <option value="pro">Political</option>
+                                            <option value="gov">Learning and development</option>
+                                            <option value="bus">Resources</option>
+                                            <option value="ben">Health and safety</option>
+                                            <option value="com">Security</option>
+                                            <option value="inf">Operational</option>
+                                            <option value="pol">Strategic</option>
+                                        </select>
+                                    </td>
+                                    <td class="govuk-table__cell">
+                                        <select class="govuk-select" id="risk-status-sort" name="rs-sort">
                                             <option value="select" selected>Select one</option>
                                             <option value="red">RED</option>
                                             <option value="amb">AMBER</option>
                                             <option value="gre">GREEN</option>
+                                            <option value="be">BLUE</option>
                                         </select>
-                                    </a>
-                                </li>
-                            </ol>
-                        </div>
-                    </li>
-
-                    <!--Step 2 Risks-->
-                    <li class="app-step-nav__step js-step" id="step2-risks">
-                        <div class="app-step-nav__header js-toggle-panel" data-position="2">
-                            <h2 class="app-step-nav__title">
-                                <span class="app-step-nav__circle app-step-nav__circle--number">
-                                    <span class="app-step-nav__circle-inner">
-                                        <span class="app-step-nav__circle-background">
-                                            <span class="govuk-visually-hidden">Step</span> 2
-                                        </span>
-                                    </span>
-                                </span>
-                                <span class="js-step-title">
-                                    Risks
-                                </span>
-                            </h2>
-                        </div>
-
-                        <div class="app-step-nav__panel js-enabled " id="step2-panel-risks">
-                            <p class="app-step-nav__paragraph">In this 2nd step you can add Risk to the delivery of your project.</p>
-
-                            <ol class="app-step-nav__list " data-length="1">
-                                <li class="app-step-nav__list-item js-list-item ">
-                                    <a data-position="2.1">
-                                        <table class="govuk-table">
-                                            <tbody class="govuk-table__body">
-                                                    <tr class="govuk-table__row">
-                                                            <td class="govuk-table__cell" scope="col">Fire</td>
-                                                            <td class="govuk-table__cell" scope="col">Infastructure</td>
-                                                            <td class="govuk-table__cell" scope="col">Red</td>
-                                                            <td class="govuk-table__cell" scope="col">10-01-19</td>
-                                                            <td class="govuk-table__cell" scope="col">Water</td>
-                                                        </tr>
-                                                <thead class="govuk-table__head">
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Description</th>
-                                                    <th class="govuk-table__header" scope="col">Risk category</th>
-                                                    <th class="govuk-table__header" scope="col">Status</th>
-                                                    <th class="govuk-table__header" scope="col">Dates</th>
-                                                    <th class="govuk-table__header" scope="col">Countermeasures</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody class="govuk-table__body">
-                                                <tr class="govuk-table__row">
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input" id="risks-description" name="risks-description" type="text">
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="risks-category-sort" name="category-sort">
-                                                            <option value="selected" selected>Select one</option>
-                                                            <option value="res">Reputational</option>
-                                                            <option value="fin">Financial</option>
-                                                            <option value="gov">Procurement</option>
-                                                            <option value="ope">Business readiness</option>
-                                                            <option value="pla">Benefits realisation</option>
-                                                            <option value="str">Prioritisation</option>
-                                                            <option value="sec">Governance</option>
-                                                            <option value="rep">Infastructure</option>
-                                                            <option value="hea">Communication</option>
-                                                            <option value="pro">Political</option>
-                                                            <option value="gov">Learning and development</option>
-                                                            <option value="bus">Resources</option>
-                                                            <option value="ben">Health and safety</option>
-                                                            <option value="com">Security</option>
-                                                            <option value="inf">Operational</option>
-                                                            <option value="pol">Strategic</option>
-                                                        </select>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="risk-status-sort" name="rs-sort">
-                                                            <option value="select" selected>Select one</option>
-                                                            <option value="red">RED</option>
-                                                            <option value="amb">AMBER</option>
-                                                            <option value="gre">GREEN</option>
-                                                            <option value="be">BLUE</option>
-                                                        </select>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="risk-dates-input">
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5" id="risk-dates-input-number" name="risk-dates-input-number" type="number" pattern="[0-9]*">
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="countermeasures-input" name="countermeasures-input" type="text">
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-
-                                        <div class="govuk-width-container">
-                                            <div class="govuk-grid-row">
-                                                <div class="govuk-grid-column-one-half">
-                                                    <a href="details-3.html#section1" role="button" class="govuk-button--nikos">
-                                                        Add more
-                                                    </a>
-                                                </div>
+                                    </td>
+                                    <td class="govuk-table__cell">
+                                        <div class="govuk-date-input" id="risk-dates-input">
+                                            <div class="govuk-date-input__item">
+                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5" id="risk-dates-input-number" name="risk-dates-input-number" type="number" pattern="[0-9]*">
                                             </div>
                                         </div>
+                                    </td>
+                                    <td class="govuk-table__cell">
+                                        <input class="govuk-input govuk-grid-column-one-quarter" id="countermeasures-input" name="countermeasures-input" type="text">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="govuk-width-container">
+                            <div class="govuk-grid-row">
+                                <div class="govuk-grid-column-one-half">
+                                    <a href="details-2.html#section1" role="button" class="govuk-button--nikos">
+                                        Add more
                                     </a>
-                                </li>
-                            </ol>
-                        </div>
-                    </li>
-
-                    <!--Step 3 Issues-->
-                    <li class="app-step-nav__step js-step" id="step3-issues">
-                        <div class="app-step-nav__header js-toggle-panel" data-position="3">
-                            <h2 class="app-step-nav__title">
-                                <span class="app-step-nav__circle app-step-nav__circle--number">
-                                    <span class="app-step-nav__circle-inner">
-                                        <span class="app-step-nav__circle-background">
-                                            <span class="govuk-visually-hidden">Step</span> 3
-                                        </span>
-                                    </span>
-                                </span>
-                                <span class="js-step-title">
-                                    Issues
-                                </span>
-                            </h2>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="app-step-nav__panel js-panel js-hidden" id="step3-panel-issues">
-                            <p class="app-step-nav__paragraph">Here you can add the potential issues that might affect your project.</p>
-
-                            <ol class="app-step-nav__list " data-length="1">
-                                <li class="app-step-nav__list-item js-list-item ">
-                                    <a data-position="3.1">
-                                        <table class="govuk-table">
-                                            <thead class="govuk-table__head">
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Description</th>
-                                                    <th class="govuk-table__header" scope="col">Issue category</th>
-                                                    <th class="govuk-table__header" scope="col">Status</th>
-                                                    <th class="govuk-table__header" scope="col">Dates</th>
-                                                    <th class="govuk-table__header" scope="col">Countermeasures</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody class="govuk-table__body">
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="row">
-                                                        <input class="govuk-input govuk-grid-column-one-third" id="issue-description" name="issue-description" type="text">
-                                                    </th>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="issue-category-sort" name="issue-c-sort">
-                                                            <option value="selected" selected>Select one</option>
-                                                            <option value="res">Reputational</option>
-                                                            <option value="fin">Financial</option>
-                                                            <option value="gov">Procurement</option>
-                                                            <option value="ope">Business readiness</option>
-                                                            <option value="pla">Benefits realisation</option>
-                                                            <option value="str">Prioritisation</option>
-                                                            <option value="sec">Governance</option>
-                                                            <option value="rep">Infastructure</option>
-                                                            <option value="hea">Communication</option>
-                                                            <option value="pro">Political</option>
-                                                            <option value="gov">Learning and development</option>
-                                                            <option value="bus">Resources</option>
-                                                            <option value="ben">Health and safety</option>
-                                                            <option value="com">Security</option>
-                                                            <option value="inf">Operational</option>
-                                                            <option value="pol">Strategic</option>
-                                                        </select>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="issue-status-sort" name="issue-s-sort">
-                                                            <option value="select" selected>Select one</option>
-                                                            <option value="red">RED</option>
-                                                            <option value="amb">AMBER</option>
-                                                            <option value="gre">GREEN</option>
-                                                            <option value="gre">BLUE</option>
-                                                        </select>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="issue-date">
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5" id="issue-date-input" name="issue-date-input" type="number" pattern="[0-9]*">
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="issue-countermeasures" name="issue-countermeasures" type="text">
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-
-                                        <div class="govuk-width-container">
-                                            <div class="govuk-grid-row">
-                                                <div class="govuk-grid-column-one-half">
-                                                    <a href="details3.html#section1" role="button" class="govuk-button--nikos">
-                                                        Add more
-                                                    </a>
-                                                </div>
+                      </div>
+                    </div>
+                    <div class="govuk-accordion__section ">
+                      <div class="govuk-accordion__section-header">
+                        <h2 class="govuk-accordion__section-heading">
+                          <span class="govuk-accordion__section-button" id="accordion-default-heading-3">
+                            Issues
+                          </span>
+                        </h2>
+                      </div>
+                      <div id="accordion-default-content-3" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-3">
+                        <p class='govuk-body'>Here you can add the potential issues that might affect your project.</p>
+                        <table class="govuk-table">
+                            <thead class="govuk-table__head">
+                                <tr class="govuk-table__row">
+                                    <th class="govuk-table__header" scope="col">Description</th>
+                                    <th class="govuk-table__header" scope="col">Issue category</th>
+                                    <th class="govuk-table__header" scope="col">Status</th>
+                                    <th class="govuk-table__header" scope="col">Dates</th>
+                                    <th class="govuk-table__header" scope="col">Countermeasures</th>
+                                </tr>
+                            </thead>
+                            <tbody class="govuk-table__body">
+                                <tr class="govuk-table__row">
+                                    <th class="govuk-table__header" scope="row">
+                                        <input class="govuk-input govuk-grid-column-one-third" id="issue-description" name="issue-description" type="text">
+                                    </th>
+                                    <td class="govuk-table__cell">
+                                        <select class="govuk-select" id="issue-category-sort" name="issue-c-sort">
+                                            <option value="selected" selected>Select one</option>
+                                            <option value="res">Reputational</option>
+                                            <option value="fin">Financial</option>
+                                            <option value="gov">Procurement</option>
+                                            <option value="ope">Business readiness</option>
+                                            <option value="pla">Benefits realisation</option>
+                                            <option value="str">Prioritisation</option>
+                                            <option value="sec">Governance</option>
+                                            <option value="rep">Infastructure</option>
+                                            <option value="hea">Communication</option>
+                                            <option value="pro">Political</option>
+                                            <option value="gov">Learning and development</option>
+                                            <option value="bus">Resources</option>
+                                            <option value="ben">Health and safety</option>
+                                            <option value="com">Security</option>
+                                            <option value="inf">Operational</option>
+                                            <option value="pol">Strategic</option>
+                                        </select>
+                                    </td>
+                                    <td class="govuk-table__cell">
+                                        <select class="govuk-select" id="issue-status-sort" name="issue-s-sort">
+                                            <option value="select" selected>Select one</option>
+                                            <option value="red">RED</option>
+                                            <option value="amb">AMBER</option>
+                                            <option value="gre">GREEN</option>
+                                            <option value="gre">BLUE</option>
+                                        </select>
+                                    </td>
+                                    <td class="govuk-table__cell">
+                                        <div class="govuk-date-input" id="issue-date">
+                                            <div class="govuk-date-input__item">
+                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5" id="issue-date-input" name="issue-date-input" type="number" pattern="[0-9]*">
                                             </div>
                                         </div>
-                                        
+                                    </td>
+                                    <td class="govuk-table__cell">
+                                        <input class="govuk-input govuk-grid-column-one-quarter" id="issue-countermeasures" name="issue-countermeasures" type="text">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="govuk-width-container">
+                            <div class="govuk-grid-row">
+                                <div class="govuk-grid-column-one-half">
+                                    <a href="details3.html#section1" role="button" class="govuk-button--nikos">
+                                        Add more
                                     </a>
-                                </li>
-                            </ol>
-                        </div>
-                    </li>
-
-                    <!--Step 4 Milestones-->
-                    <li class="app-step-nav__step js-step" id="step4-milestones">
-                        <div class="app-step-nav__header js-toggle-panel" data-position="4">
-                            <h2 class="app-step-nav__title">
-                                <span class="app-step-nav__circle app-step-nav__circle--number">
-                                    <span class="app-step-nav__circle-inner">
-                                        <span class="app-step-nav__circle-background">
-                                            <span class="govuk-visually-hidden">Step</span> 4
-                                        </span>
-                                    </span>
-                                </span>
-                                <span class="js-step-title">
-                                    Milestones
-                                </span>
-                            </h2>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="app-step-nav__panel js-panel js-hidden" id="step4-panel-milestones">
-                            <ol class="app-step-nav__list " data-length="1">
-                                <li class="app-step-nav__list-item js-list-item ">
-                                    <a data-position="4.1">
-                                        <table class="govuk-table">
-                                            <thead class="govuk-table__head">
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Key milestone</th>
-                                                    <th class="govuk-table__header" scope="col">Milestone date</th>
-                                                    <th class="govuk-table__header" scope="col">Reason for change</th>
-                                                    <th class="govuk-table__header" scope="col">SRO approved</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody class="govuk-table__body">
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Discovery start</th>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="milestone-discovery-start-date">
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5"
-                                                                       id="milestone-discovery-start-date-five" name="milestone-discovery-start-date-five" type="number"
-                                                                       pattern="[0-9]*">
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-discovery-start-change"
-                                                               name="event-name" type="text">
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="milestone-discovery-start-sort" name="milestone-discovery-start-sort">
-                                                            <option value="select" selected>Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </td>
-                                                </tr>
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Discovery end</th>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="milestone-discovery-end-date">
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5"
-                                                                       id="milestone-discovery-end-date-five" name="milestone-discovery-end-date-five" type="number"
-                                                                       pattern="[0-9]*">
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-discovery-end-change"
-                                                               name="event-name" type="text">
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="milestone-discovery-end-sort" name="milestone-discovery-end-sort">
-                                                            <option value="select" selected>Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </td>
-                                                </tr>
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Alpha start</th>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="milestone-alpha-start-date">
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5"
-                                                                       id="milestone-alpha-start-date-five" name="milestone-alpha-start-date-five" type="number"
-                                                                       pattern="[0-9]*">
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-alpha-start-change"
-                                                               name="event-name" type="text>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="milestone-alpha-start-sort" name="milestone-alpha-start-sort">
-                                                            <option value="select" selected>Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </td>
-                                                </tr>
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Alpha end</th>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="milestone-alpha-end-date>
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5"
-                                                                       id="milestone-alpha-end-date-five" name="passport-issued-year" type="number"
-                                                                       pattern="[0-9]*">                                                                 
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-alpha-end-change"
-                                                               name="event-name" type="text">                                                         
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="milestone-alpha-end-sort" name="milestone-alpha-end-sort">
-                                                            <option value="select" selected>Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </td>
-                                                </tr>
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Private Beta start</th>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="milestone-private-beta-start-date">
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5"
-                                                                       id="milestone-private-beta-start-date-five" name="milestone-private-beta-start-date-five" type="number"
-                                                                       pattern="[0-9]*">        
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-private-beta-start-change"
-                                                               name="milestone-private-beta-start-change" type="text">
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="milestone-private-beta-start-sort" name="milestone-private-beta-sort">
-                                                            <option value="select" selected>Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </td>
-                                                </tr>
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Private Beta end</th>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="milestone-private-beta-end-date">
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5"
-                                                                       id="milestone-private-beta-end-date-five" name="milestone-private-beta-end-date-five" type="number"
-                                                                       pattern="[0-9]*">
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-private-beta-end-change"
-                                                               name="milestone-private-beta-end-change" type="text">
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="milestone-private-beta-end-sort" name="milestone-private-beta-end-sort">
-                                                            <option value="select" selected>Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </td>
-                                                </tr>
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Public Beta start</th>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="milestone-public-start-date">
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5"
-                                                                       id="milestone-public-start-date-five
-                                                                       " name="milestone-public-start-date-five" type="number"
-                                                                       pattern="[0-9]*">
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-public-start-change"
-                                                               name="milestone-public-start-change" type="text">
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="milestone-public-start-sort" name="milestone-public-start-sort">
-                                                            <option value="select" selected>Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </td>
-                                                </tr>
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Live</th>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="milestone-live-date">
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5"
-                                                                       id="milestone-live-date-five" name="milestone-live-date-five" type="number"
-                                                                       pattern="[0-9]*">
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-live-change"
-                                                               name="milestone-live-change" type="text">
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="milestone-live-sort" name="milestone-live-sort">
-                                                            <option value="select" selected>Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </td>
-                                                </tr>
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Handover to BAU</th>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="milestone-handover-date">
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5"
-                                                                       id="milestone-handover-date-five" name="milestone-handover-date-five" type="number"
-                                                                       pattern="[0-9]*">
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-handover-change"
-                                                               name="milestone-handover-change" type="text">
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="milestone-handover-sort" name="milestone-handover-sort">
-                                                            <option value="select" selected>Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </td>
-                                                </tr>
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Project closed</th>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="milestone-closed-date">
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5"
-                                                                       id="milestone-closed-date-five" name="milestone-closed-date-five" type="number"
-                                                                       pattern="[0-9]*">
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-closed-change"
-                                                               name="milestone-closed-change" type="text">
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="milestone-closed-sort"" name="milestone-closed-sort">
-                                                            <option value="select" selected>Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <div class="govuk-width-container">
-                                            <label class="govuk-heading-s" for="sort">
-                                                Has the live milestone been baselined?
-                                            </label>
-                                            <select class="govuk-select" id="baselined-sort" name="baselined-sort">
-                                                <option value="select" selected>Yes</option>
-                                                <option value="no">No</option>
-                                            </select>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ol>
-                        </div>
-                    </li>
+                      </div>
+                    </div>              
+                </div>
 
-                    <li class="app-step-nav__step js-step" id="step-5-current-phase">
-                        <div class="app-step-nav__header js-toggle-panel" data-position="5">
-                            <h2 class="app-step-nav__title">
-                                <span class="app-step-nav__circle app-step-nav__circle--number">
-                                    <span class="app-step-nav__circle-inner">
-                                        <span class="app-step-nav__circle-background">
-                                            <span class="govuk-visually-hidden">Step</span> 5
-                                        </span>
-                                    </span>
-                                </span>
-                                <span class="js-step-title">
-                                    Current Phase
-                                </span>
-                            </h2>
-                        </div>
-
-                        <div class="app-step-nav__panel js-panel js-hidden" id="step-panel-5">
-                            <p class="app-step-nav__paragraph">You need to add which phase your project is at.</p>
-
-                            <ol class="app-step-nav__list " data-length="1">
-                                <li class="app-step-nav__list-item js-list-item ">
-                                    <a data-position="5.1">
-                                        <div class="govuk-width-container">
-                                            <label class="govuk-heading-m" for="sort">
-                                                Current phase
-                                            </label>
-                                            <select class="govuk-select" id="step-panel-5-sort" name="step-panel-5-sort">
-                                                <option value="select" selected>Discovery</option>
-                                                <option value="no">Private beta</option>
-                                                <option value="no">Public beta</option>
-                                                <option value="no">Alpha</option>
-                                                <option value="no">Live</option>
-                                                <option value="no">Other</option>
-                                            </select>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ol>
-                        </div>
-                    </li>
-
-                    <li class="app-step-nav__step js-step" id="step-6-resources-current">
-                        <div class="app-step-nav__header js-toggle-panel" data-position="6">
-                            <h2 class="app-step-nav__title">
-                                <span class="app-step-nav__circle app-step-nav__circle--number">
-                                    <span class="app-step-nav__circle-inner">
-                                        <span class="app-step-nav__circle-background">
-                                            <span class="govuk-visually-hidden">Step</span> 6
-                                        </span>
-                                    </span>
-                                </span>
-                                <span class="js-step-title">
-                                    Resources - Current summary
-                                </span>
-                            </h2>
-                        </div>
-
-                        <div class="app-step-nav__panel js-panel js-hidden" id="step-panel-6-resources-current">
-                            <p class="app-step-nav__paragraph">In this step use the fields below to record your resources current summary.</p>
-
-                            <ol class="app-step-nav__list " data-length="1">
-                                <li class="app-step-nav__list-item js-list-item ">
-                                    <a data-position="6.1">
-
-                                        <table class="govuk-table">
-                                            <thead class="govuk-table__head">
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Required</th>
-                                                    <th class="govuk-table__header" scope="col">Secured</th>
-                                                    <th class="govuk-table__header" scope="col">DFE staff qty</th>
-                                                    <th class="govuk-table__header" scope="col">Contigent</th>
-                                                    <th class="govuk-table__header" scope="col">Managed service</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody class="govuk-table__body">
-                                                <tr class="govuk-table__row">
-                                                    <td class="govuk-table__header" scope="row">                                                       
-                                                        <input class="govuk-input" id="resources-required" name="resources-required" type="text">                                                      
-                                                    </td>
-                                                    <td class="govuk-table__cell">                                                       
-                                                        <input class="govuk-input" id="resources-secured" name="resources-secured" type="text">                                                       
-                                                    </td>
-                                                    <td class="govuk-table__cell">                                                       
-                                                        <input class="govuk-input" id="dfe-staff" name="dfe-staff" type="text">                                                      
-                                                    </td>
-                                                    <td class="govuk-table__cell">                                                        
-                                                        <input class="govuk-input" id="contigent" name="contigent" type="text">                                                        
-                                                    </td>
-                                                    <td class="govuk-table__cell">                                                       
-                                                        <input class="govuk-input" id="managed-service" name="managed-service" type="text">                                                       
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </a>
-                                </li>
-                            </ol>
-                        </div>
-                    </li>
-
-                    <li class="app-step-nav__step js-step" id="step-7-resources-forward">
-                        <div class="app-step-nav__header js-toggle-panel" data-position="7">
-                            <h2 class="app-step-nav__title">
-                                <span class="app-step-nav__circle app-step-nav__circle--number">
-                                    <span class="app-step-nav__circle-inner">
-                                        <span class="app-step-nav__circle-background">
-                                            <span class="govuk-visually-hidden">Step</span> 7
-                                        </span>
-                                    </span>
-                                </span>
-                                <span class="js-step-title">
-                                    Resources - Forward look
-                                </span>
-                            </h2>
-                        </div>
-
-                        <div class="app-step-nav__panel js-panel js-hidden" id="step-panel-7-resources-forward">
-                            <p class="app-step-nav__paragraph">Here is the space to record your forward view for your resources.</p>
-
-                            <ol class="app-step-nav__list " data-length="1">
-                                <li class="app-step-nav__list-item js-list-item ">
-                                    <a data-position="7.1">
-                                        <table class="govuk-table">
-                                            <thead class="govuk-table__head">
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Resources required</th>
-                                                    <th class="govuk-table__header" scope="col">Resources secured</th>
-                                                    <th class="govuk-table__header" scope="col">Solution in progress</th>
-                                                    <th class="govuk-table__header" scope="col">No solution yet</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody class="govuk-table__body">
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="row">
-                                                            <input class="govuk-input govuk-grid-column-one-third" id="forward-required" name="event-name" type="text">
-                                                    </th>
-                                                    <td class="govuk-table__cell">
-                                                            <input class="govuk-input govuk-grid-column-one-quarter" id="forward-secured" name="forward-secured" type="text">
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                            <input class="govuk-input govuk-grid-column-one-quarter" id="forward-in-progress" name="forward-in-progress" type="text">
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                            <input class="govuk-input govuk-grid-column-one-quarter" id="forward-not-yet" name="forward-not-yet" type="text">
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </a>
-                                </li>
-                            </ol>
-                        </div>
-
-                    <li class="app-step-nav__step js-step" id="step-8-dependencies">
-                        <div class="app-step-nav__header js-toggle-panel" data-position="8">
-                            <h2 class="app-step-nav__title">
-                                <span class="app-step-nav__circle app-step-nav__circle--number">
-                                    <span class="app-step-nav__circle-inner">
-                                        <span class="app-step-nav__circle-background">
-                                            <span class="govuk-visually-hidden">Step</span> 8
-                                        </span>
-                                    </span>
-                                </span>
-                                <span class="js-step-title">
-                                    Dependencies
-                                </span>
-                            </h2>
-                        </div>
-
-                        <div class="app-step-nav__panel js-panel js-hidden" id="step-panel-8-dependencies">
-                            <p class="app-step-nav__paragraph">Finally use this space to report on any dependencies for and from your project.</p>
-
-                            <ol class="app-step-nav__list " data-length="1">
-                                <li class="app-step-nav__list-item js-list-item ">
-                                    <a data-position="8.1">
-                                        <div class="govuk-width-container">
-                                            <div class="govuk-form-group">
-                                                <label class="govuk-heading-m">
-                                                    Dependencies on other Projects/services
-                                                </label>
-                                                <textarea class="govuk-textarea" id="on-more-detail" name="on-more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
-                                            </div>
-                                        </div>
-
-                                        <div class="govuk-width-container">
-                                            <div class="govuk-form-group">
-                                                <label class="govuk-heading-m">
-                                                    Projects/services dependent on this project
-                                                </label>
-                                                <textarea class="govuk-textarea" id="for-more-detail" name="for-more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ol>
-                    <br>
+<!--Button-->
+                <br>
                 <div class="govuk-width-container">
-                    <a href="completed.html" role="button" class="govuk-button">
-                        Submit
+                    <a href="detailsStep2.html" role="button" class="govuk-button govuk-button--start">
+                        Continue
                     </a>
                 </div>
             </div>
@@ -913,11 +426,6 @@
         window.GOVUKFrontend.initAll();
     </script>
 
-    <script src="scripts/step-by-step-navigation.js"></script>
-    <script type="text/javascript">
-        var $element = $("#step-by-step-navigation");
-        var stepByStepNavigation = new GOVUK.Modules.StepByStepNavigation();
-        stepByStepNavigation.start($element);
-    </script>
+   
 </body>
 </html>
