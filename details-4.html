@@ -304,68 +304,67 @@
                                         <td class="govuk-table__cell" scope="col">15-07-19</td>
                                         <td class="govuk-table__cell" scope="col">Approve software</td>
                                     </tr>
-                            <thead class="govuk-table__head">
-                                <tr class="govuk-table__row">
-                                    <th class="govuk-table__header" scope="col">Description</th>
-                                    <th class="govuk-table__header" scope="col">Issue category</th>
-                                    <th class="govuk-table__header" scope="col">Status</th>
-                                    <th class="govuk-table__header" scope="col">Dates</th>
-                                    <th class="govuk-table__header" scope="col">Countermeasures</th>
-                                </tr>
-                            </thead>
-                            <tbody class="govuk-table__body">
-                                <tr class="govuk-table__row">
-                                    <th class="govuk-table__header" scope="row">
-                                        <input class="govuk-input govuk-grid-column-one-third" id="issue-description" name="issue-description" type="text">
-                                    </th>
-                                    <td class="govuk-table__cell">
-                                        <select class="govuk-select" id="issue-category-sort" name="issue-c-sort">
-                                            <option value="selected" selected>Select one</option>
-                                            <option value="res">Reputational</option>
-                                            <option value="fin">Financial</option>
-                                            <option value="gov">Procurement</option>
-                                            <option value="ope">Business readiness</option>
-                                            <option value="pla">Benefits realisation</option>
-                                            <option value="str">Prioritisation</option>
-                                            <option value="sec">Governance</option>
-                                            <option value="rep">Infrastructure</option>
-                                            <option value="hea">Communication</option>
-                                            <option value="pro">Political</option>
-                                            <option value="gov">Learning and development</option>
-                                            <option value="bus">Resources</option>
-                                            <option value="ben">Health and safety</option>
-                                            <option value="com">Security</option>
-                                            <option value="inf">Operational</option>
-                                            <option value="pol">Strategic</option>
-                                        </select>
-                                    </td>
-                                    <td class="govuk-table__cell">
-                                        <select class="govuk-select" id="issue-status-sort" name="issue-s-sort">
-                                            <option value="select" selected>Select one</option>
-                                            <option value="red">RED</option>
-                                            <option value="amb">AMBER</option>
-                                            <option value="gre">GREEN</option>
-                                            <option value="gre">BLUE</option>
-                                        </select>
-                                    </td>
-                                    <td class="govuk-table__cell">
-                                        <div class="govuk-date-input" id="issue-date">
-                                            <div class="govuk-date-input__item">
-                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5" id="issue-date-input" name="issue-date-input" type="number" pattern="[0-9]*">
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="govuk-table__cell">
-                                        <input class="govuk-input govuk-grid-column-one-quarter" id="issue-countermeasures" name="issue-countermeasures" type="text">
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                    <thead class="govuk-table__head">
+                                            <tr class="govuk-table__row">
+                                                <th class="govuk-table__header" scope="col">Description</th>
+                                                <th class="govuk-table__header" scope="col">Issue category</th>
+                                                <th class="govuk-table__header" scope="col">Impact</th>
+                                                <th class="govuk-table__header" scope="col">Resolution Date</th>
+                                                <th class="govuk-table__header" scope="col">Countermeasures</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="govuk-table__body">
+                                            <tr class="govuk-table__row">
+                                                <th class="govuk-table__header" scope="row">
+                                                    <input class="govuk-input govuk-grid-column-one-third" id="issue-description" name="issue-description" type="text">
+                                                </th>
+                                                <td class="govuk-table__cell">
+                                                    <select class="govuk-select" id="issue-category-sort" name="issue-c-sort">
+                                                        <option value="selected" selected>Select one</option>
+                                                        <option value="res">Reputational</option>
+                                                        <option value="fin">Financial</option>
+                                                        <option value="gov">Procurement</option>
+                                                        <option value="ope">Business readiness</option>
+                                                        <option value="pla">Benefits realisation</option>
+                                                        <option value="str">Prioritisation</option>
+                                                        <option value="sec">Governance</option>
+                                                        <option value="rep">Infrastructure</option>
+                                                        <option value="hea">Communication</option>
+                                                        <option value="pro">Political</option>
+                                                        <option value="gov">Learning and development</option>
+                                                        <option value="bus">Resources</option>
+                                                        <option value="ben">Health and safety</option>
+                                                        <option value="com">Security</option>
+                                                        <option value="inf">Operational</option>
+                                                        <option value="pol">Strategic</option>
+                                                    </select>
+                                                </td>
+                                                <td class="govuk-table__cell">
+                                                    <select class="govuk-select" id="issue-status-sort" name="issue-s-sort">
+                                                        <option value="select" selected>Select one</option>
+                                                        <option value="red">High</option>
+                                                        <option value="amb">Medium</option>
+                                                        <option value="gre">Low</option>
+                                                    </select>
+                                                </td>
+                                                <td class="govuk-table__cell">
+                                                    <div class="govuk-date-input" id="issue-date">
+                                                        <div class="govuk-date-input__item">
+                                                            <input class="govuk-input govuk-date-input__input govuk-input--width-5" id="issue-date-input" name="issue-date-input" type="number" pattern="[0-9]*">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td class="govuk-table__cell">
+                                                    <input class="govuk-input govuk-grid-column-one-quarter" id="issue-countermeasures" name="issue-countermeasures" type="text">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
 
                         <div class="govuk-width-container">
                             <div class="govuk-grid-row">
                                 <div class="govuk-grid-column-one-half">
-                                    <a href="details3.html#section1" role="button" class="govuk-button--nikos">
+                                    <a href="#" role="button" class="govuk-button--nikos">
                                         Add more
                                     </a>
                                 </div>

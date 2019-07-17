@@ -153,14 +153,15 @@
                                             <thead class="govuk-table__head">
                                                 <tr class="govuk-table__row">
                                                     <th class="govuk-table__header" scope="col">Key milestone</th>
-                                                    <th class="govuk-table__header" scope="col">Milestone date</th>
+                                                    <th class="govuk-table__header" scope="col">Start date</th>
+                                                    <th class="govuk-table__header" scope="col">End date</th>
                                                     <th class="govuk-table__header" scope="col">Reason for change</th>
                                                     <th class="govuk-table__header" scope="col">SRO approved</th>
                                                 </tr>
                                             </thead>
                                             <tbody class="govuk-table__body">
                                                 <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Discovery start</th>
+                                                    <th class="govuk-table__header" scope="col">Discovery</th>
                                                     <td class="govuk-table__cell">
                                                         <div class="govuk-date-input" id="milestone-discovery-start-date">
                                                             <div class="govuk-date-input__item">
@@ -170,6 +171,15 @@
                                                             </div>
                                                         </div>
                                                     </td>
+                                                    <td class="govuk-table__cell">
+                                                            <div class="govuk-date-input" id="milestone-discovery-start-date">
+                                                                <div class="govuk-date-input__item">
+                                                                    <input class="govuk-input govuk-date-input__input govuk-input--width-5"
+                                                                           id="milestone-discovery-start-date-five" name="milestone-discovery-end-date-five" type="number"
+                                                                           pattern="[0-9]*">
+                                                                </div>
+                                                            </div>
+                                                        </td>
                                                     <td class="govuk-table__cell">
                                                         <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-discovery-start-change"
                                                                name="event-name" type="text">
@@ -182,31 +192,9 @@
                                                         </select>
                                                     </td>
                                                 </tr>
+                                               
                                                 <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Discovery end</th>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="milestone-discovery-end-date">
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5"
-                                                                       id="milestone-discovery-end-date-five" name="milestone-discovery-end-date-five" type="number"
-                                                                       pattern="[0-9]*">
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-discovery-end-change"
-                                                               name="event-name" type="text">
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="milestone-discovery-end-sort" name="milestone-discovery-end-sort">
-                                                            <option value="select" selected></option>
-                                                            <option value="Yes">Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </td>
-                                                </tr>
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Alpha start</th>
+                                                    <th class="govuk-table__header" scope="col">Alpha</th>
                                                     <td class="govuk-table__cell">
                                                         <div class="govuk-date-input" id="milestone-alpha-start-date">
                                                             <div class="govuk-date-input__item">
@@ -216,6 +204,15 @@
                                                             </div>
                                                         </div>
                                                     </td>
+                                                    <td class="govuk-table__cell">
+                                                            <div class="govuk-date-input" id="milestone-discovery-start-date">
+                                                                <div class="govuk-date-input__item">
+                                                                    <input class="govuk-input govuk-date-input__input govuk-input--width-5"
+                                                                           id="milestone-discovery-start-date-five" name="milestone-alpha-end-date-five" type="number"
+                                                                           pattern="[0-9]*">
+                                                                </div>
+                                                            </div>
+                                                        </td>
                                                     <td class="govuk-table__cell">
                                                         <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-alpha-start-change"
                                                                name="event-name" type="text">
@@ -228,31 +225,9 @@
                                                         </select>
                                                     </td>
                                                 </tr>
+                                                
                                                 <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Alpha end</th>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="milestone-alpha-end-date>
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5"
-                                                                       id="milestone-alpha-end-date-five" name="passport-issued-year" type="number"
-                                                                       pattern="[0-9]*">                                                                 
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-alpha-end-change"
-                                                               name="event-name" type="text">                                                         
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="milestone-alpha-end-sort" name="milestone-alpha-end-sort">
-                                                            <option value="select" selected></option>
-                                                            <option value="Yes">Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </td>
-                                                </tr>
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Private Beta start</th>
+                                                    <th class="govuk-table__header" scope="col">Private Beta</th>
                                                     <td class="govuk-table__cell">
                                                         <div class="govuk-date-input" id="milestone-private-beta-start-date">
                                                             <div class="govuk-date-input__item">
@@ -262,6 +237,15 @@
                                                             </div>
                                                         </div>
                                                     </td>
+                                                    <td class="govuk-table__cell">
+                                                            <div class="govuk-date-input" id="milestone-discovery-start-date">
+                                                                <div class="govuk-date-input__item">
+                                                                    <input class="govuk-input govuk-date-input__input govuk-input--width-5"
+                                                                           id="milestone-discovery-start-date-five" name="milestone-private-beta-end-date-five" type="number"
+                                                                           pattern="[0-9]*">
+                                                                </div>
+                                                            </div>
+                                                        </td>
                                                     <td class="govuk-table__cell">
                                                         <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-private-beta-start-change"
                                                                name="milestone-private-beta-start-change" type="text">
@@ -274,31 +258,9 @@
                                                         </select>
                                                     </td>
                                                 </tr>
+                                               
                                                 <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Private Beta end</th>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="milestone-private-beta-end-date">
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5"
-                                                                       id="milestone-private-beta-end-date-five" name="milestone-private-beta-end-date-five" type="number"
-                                                                       pattern="[0-9]*">
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-private-beta-end-change"
-                                                               name="milestone-private-beta-end-change" type="text">
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="milestone-private-beta-end-sort" name="milestone-private-beta-end-sort">
-                                                            <option value="select" selected></option>
-                                                            <option value="Yes">Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </td>
-                                                </tr>
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Public Beta start</th>
+                                                    <th class="govuk-table__header" scope="col">Public Beta</th>
                                                     <td class="govuk-table__cell">
                                                         <div class="govuk-date-input" id="milestone-public-start-date">
                                                             <div class="govuk-date-input__item">
@@ -309,6 +271,15 @@
                                                             </div>
                                                         </div>
                                                     </td>
+                                                    <td class="govuk-table__cell">
+                                                            <div class="govuk-date-input" id="milestone-discovery-start-date">
+                                                                <div class="govuk-date-input__item">
+                                                                    <input class="govuk-input govuk-date-input__input govuk-input--width-5"
+                                                                           id="milestone-discovery-start-date-five" name="milestone-public-end-date-five" type="number"
+                                                                           pattern="[0-9]*">
+                                                                </div>
+                                                            </div>
+                                                        </td>
                                                     <td class="govuk-table__cell">
                                                         <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-public-start-change"
                                                                name="milestone-public-start-change" type="text">
@@ -321,29 +292,7 @@
                                                         </select>
                                                     </td>
                                                 </tr>
-                                                <tr class="govuk-table__row">
-                                                    <th class="govuk-table__header" scope="col">Public Beta end</th>
-                                                    <td class="govuk-table__cell">
-                                                        <div class="govuk-date-input" id="milestone-private-beta-start-date">
-                                                            <div class="govuk-date-input__item">
-                                                                <input class="govuk-input govuk-date-input__input govuk-input--width-5"
-                                                                       id="milestone-private-beta-start-date-five" name="milestone-private-beta-start-date-five" type="number"
-                                                                       pattern="[0-9]*">        
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-private-beta-start-change"
-                                                               name="milestone-private-beta-start-change" type="text">
-                                                    </td>
-                                                    <td class="govuk-table__cell">
-                                                        <select class="govuk-select" id="milestone-private-beta-start-sort" name="milestone-private-beta-sort">
-                                                            <option value="select" selected></option>
-                                                            <option value="Yes">Yes</option>
-                                                            <option value="no">No</option>
-                                                        </select>
-                                                    </td>
-                                                </tr>
+                                                
                                                 <tr class="govuk-table__row">
                                                     <th class="govuk-table__header" scope="col">Live</th>
                                                     <td class="govuk-table__cell">
@@ -355,6 +304,15 @@
                                                             </div>
                                                         </div>
                                                     </td>
+                                                    <td class="govuk-table__cell">
+                                                            <div class="govuk-date-input" id="milestone-discovery-start-date">
+                                                                <div class="govuk-date-input__item">
+                                                                    <input class="govuk-input govuk-date-input__input govuk-input--width-5"
+                                                                           id="milestone-discovery-start-date-five" name="milestone-live-end-date-five" type="number"
+                                                                           pattern="[0-9]*">
+                                                                </div>
+                                                            </div>
+                                                        </td>
                                                     <td class="govuk-table__cell">
                                                         <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-live-change"
                                                                name="milestone-live-change" type="text">
@@ -379,6 +337,15 @@
                                                         </div>
                                                     </td>
                                                     <td class="govuk-table__cell">
+                                                            <div class="govuk-date-input" id="milestone-discovery-start-date">
+                                                                <div class="govuk-date-input__item">
+                                                                    <input class="govuk-input govuk-date-input__input govuk-input--width-5"
+                                                                           id="milestone-discovery-start-date-five" name="milestone-handover-end-date-five" type="number"
+                                                                           pattern="[0-9]*">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    <td class="govuk-table__cell">
                                                         <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-handover-change"
                                                                name="milestone-handover-change" type="text">
                                                     </td>
@@ -396,11 +363,20 @@
                                                         <div class="govuk-date-input" id="milestone-closed-date">
                                                             <div class="govuk-date-input__item">
                                                                 <input class="govuk-input govuk-date-input__input govuk-input--width-5"
-                                                                       id="milestone-closed-date-five" name="milestone-closed-date-five" type="number"
+                                                                       id="milestone-closed-date-five" name="milestone-closed-start-date-five" type="number"
                                                                        pattern="[0-9]*">
                                                             </div>
                                                         </div>
                                                     </td>
+                                                    <td class="govuk-table__cell">
+                                                            <div class="govuk-date-input" id="milestone-discovery-start-date">
+                                                                <div class="govuk-date-input__item">
+                                                                    <input class="govuk-input govuk-date-input__input govuk-input--width-5"
+                                                                           id="milestone-discovery-start-date-five" name="milestone-closed-end-date-five" type="number"
+                                                                           pattern="[0-9]*">
+                                                                </div>
+                                                            </div>
+                                                        </td>
                                                     <td class="govuk-table__cell">
                                                         <input class="govuk-input govuk-grid-column-one-quarter" id="milestone-closed-change"
                                                                name="milestone-closed-change" type="text">

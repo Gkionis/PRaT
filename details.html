@@ -205,9 +205,10 @@
                                 <tr class="govuk-table__row">
                                     <th class="govuk-table__header" scope="col">Description</th>
                                     <th class="govuk-table__header" scope="col">Risk category</th>
-                                    <th class="govuk-table__header" scope="col">Status</th>
-                                    <th class="govuk-table__header" scope="col">Dates</th>
+                                    <th class="govuk-table__header" scope="col">Risk rating</th>
+                                    <th class="govuk-table__header" scope="col">Impact date</th>
                                     <th class="govuk-table__header" scope="col">Countermeasures</th>
+                                    <th class="govuk-table__header" scope="col">Escalation</th>
                                 </tr>
                             </thead>
                             <tbody class="govuk-table__body">
@@ -255,6 +256,13 @@
                                     <td class="govuk-table__cell">
                                         <input class="govuk-input govuk-grid-column-one-quarter" id="countermeasures-input" name="countermeasures-input" type="text">
                                     </td>
+                                    <td class="govuk-table__cell">
+                                        <select class="govuk-select" id="risk-status-sort" name="rs-sort">
+                                            <option value="select" selected></option>
+                                            <option value="red">Yes</option>
+                                            <option value="amb">No</option>
+                                        </select>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -286,8 +294,8 @@
                                 <tr class="govuk-table__row">
                                     <th class="govuk-table__header" scope="col">Description</th>
                                     <th class="govuk-table__header" scope="col">Issue category</th>
-                                    <th class="govuk-table__header" scope="col">Status</th>
-                                    <th class="govuk-table__header" scope="col">Dates</th>
+                                    <th class="govuk-table__header" scope="col">Impact</th>
+                                    <th class="govuk-table__header" scope="col">Resolution Date</th>
                                     <th class="govuk-table__header" scope="col">Countermeasures</th>
                                 </tr>
                             </thead>
@@ -320,10 +328,9 @@
                                     <td class="govuk-table__cell">
                                         <select class="govuk-select" id="issue-status-sort" name="issue-s-sort">
                                             <option value="select" selected>Select one</option>
-                                            <option value="red">RED</option>
-                                            <option value="amb">AMBER</option>
-                                            <option value="gre">GREEN</option>
-                                            <option value="gre">BLUE</option>
+                                            <option value="red">High</option>
+                                            <option value="amb">Medium</option>
+                                            <option value="gre">Low</option>
                                         </select>
                                     </td>
                                     <td class="govuk-table__cell">
